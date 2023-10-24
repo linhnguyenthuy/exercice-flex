@@ -53,13 +53,26 @@ h2 {
 /* EXERCICE 5 */
 .exercice5 {
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
 }
-
-/* EXERCICE 6 */
-.exercice6 {
+.exercice5 ul {
   display: flex;
   flex-direction: row;
 }
+
+/* EXERCICE 6 */
+.exercice6 ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 /* EXERCICE 7 */
+.exercice7 ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.exercice7 ul li {
+  border-radius: 50%;
+}
